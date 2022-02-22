@@ -19,6 +19,25 @@
         android:layout_height="wrap_content"
         android:src="@drawable/instagram_logo" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:hint="Phone numver, username or email" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:hint="Password" />
+
+    </LinearLayout>
+
 
 
 

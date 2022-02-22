@@ -28,15 +28,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingStart="10dp"
-            android:hint="Phone numver, username or email" />
+            android:hint="Phone numver, username or email"
+            android:textAllCaps="false"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingStart="10dp"
-            android:hint="Password" />
+            android:hint="Password"
+            android:textAllCaps="false"/>
 
     </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot passworld?"
+        android:textStyle="bold"
+        android:textColor="#03A9F4"
+        android:background="#00ff0000"
+        android:gravity="end"
+        android:textAllCaps="false"
 
 
 

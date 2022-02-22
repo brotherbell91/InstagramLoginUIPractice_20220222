@@ -44,11 +44,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Forgot passworld?"
-        android:textStyle="bold"
         android:textColor="#03A9F4"
         android:background="#00ff0000"
         android:gravity="end"
-        android:textAllCaps="false"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:textColor="@color/white"
+        android:background="@drawable/login_button"
+        android:textAllCaps="false"/>
+
+
+
 
 
 
